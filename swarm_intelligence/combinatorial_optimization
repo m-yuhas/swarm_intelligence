@@ -1,0 +1,9 @@
+import networkx
+
+TAO_0 = 1e-6
+
+def as_tsp(graph: networkx.Graph):
+    tao = []
+    for edge in graph.edges():
+        tao.append(TAO_0)
+    
